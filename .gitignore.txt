@@ -1,0 +1,2 @@
+/Labyrintspill/Labyrintspill/bin
+/Labyrintspill/Labyrintspill/obj/*
