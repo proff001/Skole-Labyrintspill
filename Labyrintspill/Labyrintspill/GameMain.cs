@@ -57,7 +57,7 @@ namespace Labyrintspill {
         }
 
         protected override void Initialize() {
-            viewportAdapter = new BoxingViewportAdapter(Window, GraphicsDevice, 800, 600);
+            viewportAdapter = new ScalingViewportAdapter(GraphicsDevice, 1280, 720);
             cam = new OrthographicCamera(viewportAdapter);
 
             Window.AllowUserResizing = true;
@@ -81,6 +81,9 @@ namespace Labyrintspill {
                 Exit();
 
             // TODO: Add your update logic here
+
+            viewportAdapter = new ScalingViewportAdapter(GraphicsDevice, Window.ClientBounds.Width, Window.ClientBounds.Height);
+            cam = new OrthographicCamera(viewportAdapter);
 
             MoveCamera(gameTime, keyStates);
             cam.LookAt(camPos);
