@@ -2,8 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Labyrintspill.Classes {
-    public class Player {
-
+namespace LabyrintSpill.Source.Engine.Input {
+    class Keyboard {
     }
 }

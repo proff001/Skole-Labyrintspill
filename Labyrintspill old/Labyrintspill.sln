@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabyrintSpill", "LabyrintSpill.csproj", "{1E7B1648-882D-4729-8311-E6FF0DB7F4EE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Labyrintspill", "Labyrintspill\Labyrintspill.csproj", "{2FDEC022-FA90-47F9-9792-C970B59A6404}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1E7B1648-882D-4729-8311-E6FF0DB7F4EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1E7B1648-882D-4729-8311-E6FF0DB7F4EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1E7B1648-882D-4729-8311-E6FF0DB7F4EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1E7B1648-882D-4729-8311-E6FF0DB7F4EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FDEC022-FA90-47F9-9792-C970B59A6404}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FDEC022-FA90-47F9-9792-C970B59A6404}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FDEC022-FA90-47F9-9792-C970B59A6404}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FDEC022-FA90-47F9-9792-C970B59A6404}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {5C176185-6298-4C40-9B3E-CF8FCEBED6E8}
+		SolutionGuid = {DE039D83-162A-47D4-9ABB-B81385649816}
 	EndGlobalSection
 EndGlobal

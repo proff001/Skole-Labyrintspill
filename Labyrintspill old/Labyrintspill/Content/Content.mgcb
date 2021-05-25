@@ -34,6 +34,18 @@
 /processorParam:TextureFormat=Color
 /build:Textures/Interiors_free_48x48.png
 
+#begin Textures/Player.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:Textures/Player.png
+
 #begin Textures/Tileset_48x48_9.png
 /importer:TextureImporter
 /processor:TextureProcessor
