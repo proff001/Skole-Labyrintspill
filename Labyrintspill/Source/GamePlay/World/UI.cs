@@ -15,7 +15,9 @@ namespace LabyrintSpill{
         }
 
         public void Draw(World world) {
-
+            string tempString = "Collected Item: " + (world.collectedItem ? "[X]" : "[  ]");
+            Vector2 strDims = font.MeasureString(tempString);
+            Globals.spriteBatch.DrawString(font, tempString, new Vector2(Globals.screenWidth - 140f, 20f), Color.Black);
         }
     }
 }

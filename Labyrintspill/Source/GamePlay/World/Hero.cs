@@ -5,11 +5,13 @@ using Microsoft.Xna.Framework.Input;
 namespace LabyrintSpill {
     public class Hero : Basic2D {
         public float speed;
+
         public Hero(string Path, Vector2 Pos, Vector2 Dems) : base(Path, Pos, Dems) {
             speed = 2.0f;
         }
 
         public override void Update() {
+            Vector2 oldPos = pos;
             KeyboardState state = Keyboard.GetState();
 
             if(state.IsKeyDown(Keys.A))
@@ -20,6 +22,9 @@ namespace LabyrintSpill {
                 pos = new Vector2(pos.X, pos.Y - speed);
             if(state.IsKeyDown(Keys.S))
                 pos = new Vector2(pos.X, pos.Y + speed);
+
+            if(oldPos != pos)
+                Globals.CheckScroll(pos);
 
             base.Update();
         }
