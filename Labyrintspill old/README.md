@@ -1,6 +1,6 @@
 # Skole-Labyrintspill
 
-En skole oppgave som innebærer å lage et labyrintspill.
+Første utkast med Monogame Extended som jeg ikke fikk til helt.
 
 Character from [Szadi art](https://szadiart.itch.io/rpg-main-character)
 
